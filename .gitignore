@@ -21,3 +21,5 @@ rough.py
 db.sqlite3
 
 Dockerfile.ccc
+
+note.py
