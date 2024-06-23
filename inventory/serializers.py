@@ -40,13 +40,14 @@ class SupplierSerializer(serializers.ModelSerializer):
         instance.name = validated_data.get('name', instance.name)
         instance.contact_information = validated_data.get('contact_information', instance.contact_information)
         # items_supplied_data = validated_data.get('items_supplied', [])
+        # item, _ = Item.objects.get_or_create(**item_data)
 
         # instance.items_supplied.clear()
         # for item_data in items_supplied_data:
         #     item, _ = Item.objects.get_or_create(**item_data)
         #     ItemSupplier.objects.create(item=item, supplier=instance)
 
-        # instance.save()
+        instance.save()
         return instance
 
 
