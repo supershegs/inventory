@@ -20,6 +20,10 @@ python manage.py migrate
 python manage.py createsuperuser
 
 
+# run the app
+python manage.py runserver
+
+
 # Click on the link below to access the API postman Collection
 
 https://documenter.getpostman.com/view/4152080/2sA3XWdeba
@@ -29,7 +33,5 @@ https://documenter.getpostman.com/view/4152080/2sA3XWdeba
 send request you request body with username and password to http://127.0.0.1:8000/api-token-auth/ to get your API
 
 
-# run the app
-python manage.py runserver
 
 
