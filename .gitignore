@@ -23,3 +23,5 @@ db.sqlite3
 Dockerfile.ccc
 
 note.py
+
+req.txt
