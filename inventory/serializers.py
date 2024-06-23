@@ -38,7 +38,7 @@ class SupplierSerializer(serializers.ModelSerializer):
 
     def update(self, instance, validated_data):
         instance.name = validated_data.get('name', instance.name)
-        instance.contact_info = validated_data.get('contact_information', instance.contact_information)
+        instance.contact_information = validated_data.get('contact_information', instance.contact_information)
         # items_supplied_data = validated_data.get('items_supplied', [])
 
         # instance.items_supplied.clear()
